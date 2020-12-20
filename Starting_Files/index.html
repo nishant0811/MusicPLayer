@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Music Player</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+      <div class="main-body">
+      <div class="player">
+        <div class="heading">
+          <h1>MPLAY</h1>
+        </div>
+        <div class="player-body">
+          <div class="player__graphics">
+            <div class="image">
+              <img id="image" src="Photos\Monster - By MusicbyAden (Free Copyright Safe Music).jpg" alt="">
+            </div>
+            <div class="song-title">
+              <h3 id="title">Monster</h3>
+            </div>
+          </div>
+          <audio src="" id="audio"></audio>
+          <div class="player-controller">
+            <img src="icons/forward.png" alt="" class="backward">
+            <img src="icons/play.png" alt="" class="play">
+            <img src="icons/forward.png" alt="" class="forward">
+          </div>
+          <div class="player__time">
+            <p class="start-time">0:00</p>
+            <div class="music-played-complete">
+              <div class="music-played-till-now">
+
+              </div>
+            </div>
+            <p class="end-time">0:00</p>
+            <div class="speaker active">
+              <img src="icons/speaker.png" alt="">
+            </div>
+            <div class="shuffle">
+              <img src="icons/shuffle.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
